@@ -8,11 +8,11 @@ function verHomer = Homer_version(input_data)
     data_name = fieldnames(input_data);
     
     % Homer1 format data struct contains only 2 fields
-    if length(data_name) == 2 && (sum(strcmp(data_name,'hmr')) || sum(strcmp(data_name,'opt')))
+    if length(data_name) == 2 
         verHomer = 1;
         
     % Homer2 format data struct contains 10 fields
-    elseif length(data_name) > 2 && sum(strcmp(data_name,'procResult'))
+    elseif length(data_name) == 10
         verHomer = 2;
         
     % Unidentified data struct format
