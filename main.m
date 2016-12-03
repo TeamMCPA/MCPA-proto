@@ -70,14 +70,7 @@ MCP_struct = create_MCP_struct(raw_nirs_file_name1);
 data_file_array = {'Test_for_Joszef_001-RNAv3_MES_Probe1.nirs' 'Test_for_Joszef_001-RNAv3_MES_Probe1.nirs'};
 MCP_struct_M = create_MCP(data_file_array);
 
-% raw_nirs_file_name2 = 'Test_for_Joszef_002-BDZ_MES_Probe1.nirs';
-% MCP_struct_2 = create_MCP_struct(raw_nirs_file_name2);
-% 
-% raw_nirs_file_name3 = 'Test_for_Joszef_003-SZ_MES_Probe1.nirs';
-% MCP_struct_3 = create_MCP_struct(raw_nirs_file_name3);
-% 
-% 
-% MCP_struct = [MCP_struct, MCP_struct_2, MCP_struct_3];
+
 
 
 
