@@ -1,0 +1,35 @@
+MCP Struct:
+
+create_MCP (Single subject, single prob, and multiple runs)
+
+
+About_subject:
+	Subject_ID (Console input)
+	Absolute_path
+		
+Experiment_data:
+	Runs:
+		Run_ID (Console input)
+		Indecies (Console input)
+		Source_files 
+
+	Prob_arrays:
+		Array_ID (Console input)
+		Channels_in_Array
+		Geometry
+
+	Conditions:
+		Name (Console input)
+		Condition_mark
+
+fNIRs_time_series:
+	Sampling_frequency (Console input)
+
+	On_Sets_Marks_Matrix
+
+
+	Hb_data:
+		Oxygenated
+		Deoxygenated
+		Total
+
