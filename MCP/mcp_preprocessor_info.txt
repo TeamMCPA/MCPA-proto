@@ -4,26 +4,26 @@ create_MCP (Single subject, single prob, and multiple runs)
 
 
 About_subject:
-	Subject_ID (Console input)
+	Subject_ID
 	Absolute_path
 		
 Experiment_data:
 	Runs:
-		Run_ID (Console input)
-		Indecies (Console input)
+		Run_ID
+		Indecies
 		Source_files 
 
 	Prob_arrays:
-		Array_ID (Console input)
+		Array_ID
 		Channels_in_Array
 		Geometry
 
 	Conditions:
-		Name (Console input)
+		Name
 		Condition_mark
 
 fNIRs_time_series:
-	Sampling_frequency (Console input)
+	Sampling_frequency
 
 	On_Sets_Marks_Matrix
 
